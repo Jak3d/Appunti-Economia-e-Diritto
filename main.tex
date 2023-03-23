@@ -1,0 +1,295 @@
+\documentclass[twocolumn]{article}
+\setlength{\columnsep}{20pt}
+\usepackage[italian]{babel}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+
+\usepackage[skins]{tcolorbox}
+\tcbset{commonstyle/.style={boxrule=0pt,sharp corners,enhanced jigsaw,boxsep=0pt,left=\fboxsep,right=\fboxsep}}
+\newtcolorbox{mycolorbox}[1][]{commonstyle,#1}
+\definecolor{colorone}{RGB}{220,220,220}
+\newcommand{\definition}[1]{\begin{mycolorbox}[colback=colorone]
+\fontfamily{qcr}\selectfont #1 \fontfamily{cmr}\selectfont
+\end{mycolorbox}}
+
+\usepackage[colorlinks=true, allcolors=black]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[
+    type={CC},
+    modifier={by-nc-sa},
+    version={3.0},
+]{doclicense}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{imakeidx}
+\makeindex[columns=3, title=Alphabetical Index, intoc]
+\hypersetup{ 
+     colorlinks=true, 
+     linkcolor=black, 
+     filecolor=black, 
+     citecolor = black,       
+     urlcolor=blue, 
+     } 
+\title{Economia e Diritto}
+\author{Leonardo Marro}
+\date{March 2023}
+
+\begin{document}
+
+
+
+\twocolumn[{\centering{\Huge Economia e Diritto \par}\vspace{3ex}
+        {\large Leonardo Marro \par}\vspace{3ex}
+	\today\par\vspace{4ex}{\small \fbox{\doclicenseThis} \par}\vspace{2ex}}]
+ %pagina separata? o insieme al titolo?
+ \tableofcontents
+\clearpage
+\part{Economia}
+
+
+\section{Introduzione}
+
+\section{Customer Segments}
+
+The customer segment building block defines the different groups of people or organizations an enterprise aims to reach and serve. 
+\subsection{Monopòli}
+Come per quelli dello stato sono certi prodotti o servizi che sono ottenibili da un solo ente, privato o pubblico.
+\subsection{Distribution Services}
+Quando un consumatore acquista da certe aziende, non si domanda \textbf{da chi viene prodotto}, osserva solo il distributore di tale prodotto (vedi Enel con elettricità).
+\subsection{Requisiti delle compagnie}
+Una compagnia potrebbe aver bisogno di distinguere i consumatori in diversi gruppi: \begin{itemize}
+    \item Necessità comuni
+    \item Comportamenti comuni
+    \item Altri attributi
+\end{itemize}
+Un modello di business può creare diversi segmenti di consumatori di dimensioni diverse, è importante saper decidere \textbf{chi servire e chi ignorare}.
+
+Quando queste decisioni vengono attuate, si può procedere a creare un modello di business incentrato alla comprensione di \textbf{necessità specifiche dei consumatori}.
+
+Esempi di necessità:\begin{itemize}
+    \item Pausa Pranzo: serve un posto dove prendere il cibo, un posto dove mangiare, qualcuno che pulisca il posto per mangiare.
+\end{itemize}
+
+Per capire quali sono le necessità dei consumatori serve un metodo di ottenimento dei dati in modo che sia efficiente ed affidabile. Un metodo utile è l'ottenimento degli utenti che accedono ad una certa struttura attraverso il \textbf{GPS dei cellulari}, con questi dati si può ottenere l'affluenza media, gli orari ed i giorni etc...
+
+I gruppi di consumatori si separano se:\begin{itemize}
+    \item I loro bisogni \textbf{richiedono o giustificano un'offerta distinta};
+    \item Arrivano da \textbf{diversi canali di distribuzione};
+    \item Richiedono diversi \textbf{tipi di relazioni};
+    \item Hanno diversa \textbf{profittabilità};
+    \item Sono disposti a pagare per diversi \textbf{aspetti dell'offerta}.
+\end{itemize}
+\subsubsection{Domanda Chiave}
+\textbf{Per chi stiamo creando valore? \newline Chi sono i consumatori più importanti?}
+\subsection{Tipi di segmenti}
+\subsubsection{Mercato di Massa}
+Si concentra su grandi gruppi che hanno gli stessi problemi e le  stesse necessità.
+\subsubsection{Mercato di Nicchia}
+Mirata a consumatori con specifiche necessità.
+\subsubsection{Segmentato}
+Diversi problemi che si differenziano di poco (tipo banca con operazioni legali etc.)
+\subsubsection{Diversificato}
+Gestisce consumatori con necessità e problemi notevolmente diversi.
+\subsubsection{Piattaforme Multi-Sided}
+[Non l'ho capito]
+\section{Proposizione di Valore}
+Qual è la ragione per cui sto servendo il consumatore? Risolve un \textbf{Problema}(In questo caso posso incrementare i guadagni, diversa propensione al prezzo/qualità) o soddisfa una \textbf{Necessità}?.
+\subsection{Le 5 domande}
+\begingroup
+\begin{tabular}{X|c|c}
+& \definition{Qual è lo scopo del prodotto?} &  \\
+& \definition{A chi è mirato il prodotto?} & \\
+& \definition{A quali necessità riferisce il prodotto?} & \\
+& \definition{Come viene consegnato il prodotto?} & \\
+& \definition{Qual è la posizione di prezzo del prodotto?} & \\
+\end{tabular}
+\endgroup
+Queste sono domande da applicare a qualsiasi prodotto per poter studiare a quale segmento riferirlo.
+\begingroup
+\definition{\textbf{Cross-Selling}: Se vendo un certo oggetto nel negozio, posso vendere prodotti completamente diversi, ma che possono essere abbinabili al primo.}
+\endgroup
+Hai una proposizione di valore solo se:
+\[C < P < V\]
+\begingroup
+\definition{C = Costo totale del prodotto} Esistono casi in cui le aziende vendono prodotti a prezzo inferiore del costo di produzione, questo perché così posso \textbf{soffocare la nuova competizione}; spesso questo è un comportamento delle grandi aziende. In certi stati questo è \textbf{illegale} (Anti-Trust). 
+\definition{P = Customer Net Price} Valore per il cliente, a che punto un cliente è disposto a comprare il nostro prodotto? (Nota: Se non sei italiano non paghi le imposte!)
+\definition{V = Customer Perceived Price}
+\endgroup
+\textbf{Un Modello di Business descrive il procedimento razionale di come un'organizzazione crea, consegna e cattura i valori}. Come creo, distribuisco o catturo(prendo pezzi da parti diverse e le rendo mie) il valore?
+\subsection{Value Proposition}
+\textbf{Il blocco di proposizione di valore descrive il bundle di prodotti e servizi che creano un valore per uno specifico segmento di valore }.
+Una value proposition può essere di due tipi: \begin{itemize}
+    \item Quantitativa (Prezzo più basso, velocità del servizio);
+    \item Qualitativa (Design, qualità più alta).
+\end{itemize}
+\section{Descrizione degli Elementi}
+\begin{itemize}
+    \item Newness(novità):
+    \item Performance:
+    \item Customization(Personalizzazione):
+    \item Completing the job:
+    \item Design:
+    \item Brand/Status:
+    \item Price:
+    \item Accessibility:
+    
+\end{itemize}
+
+
+\clearpage\newpage
+\part{Diritto}
+\setcounter{section}{0}
+\textbf{Prima di iniziare}: in questa materia la terminologia è estremamente importante, certi termini vanno imparati ed esposti nel modo in cui è stato spiegato e \textbf{non in maniera diversa} in quanto può comportare la perdita di punti all'esame.
+\subsection{Esame}
+L'esame è composto da un'interrogazione orale, gli argomenti d'esame sono gli stessi di quelli degli anni precedenti( questo vuol dire tutt'altro che non studiare). La parte dell'esame di diritto comporta $\frac{3}{9}$ dei crediti del corso, la verbalizzazione del voto verrà gestita da un singolo professore, (Prof. Pierotti al momento), gli altri professori non hanno potere a riguardo. I possessori di due voti positivi (di Diritto e di Economia) dovranno iscriversi alla \textbf{Verbalizzazione del voto}, pena l'\textbf{annullamento} del voto.  Ambe parti del voto sono valide fino al \textbf{termine dell'anno accademico}.
+\subsection{Ricevimenti}
+I ricevimenti possono avvenire sia brevemente a fine lezione in Ateneo, sia scrivendo all' \\ email \href{mailto:info@pclex.it}{info@pclex.it} richiedendo un appuntamento per discutere gli argomenti del corso.
+\section{Principi Generali e Definizioni}
+
+Normative sulla privacy (protezione dati): \begin{itemize}
+    \item Regolamento (UE) 2016/679 in vigore dal 25 maggio 2018
+    \item Direttiva 2002/58: Codice Europeo Comunicazioni Elettroniche
+    \item D.Lgs. 196/2003: Abrogazione Selettiva.
+    \item Provvedimenti Garante Privacy: \textbf{Non} decadono fino ad un eventuale modifica, sostituzione o abrogazione.
+    \item Accordi internazionali su trasferimento dati: \textbf{Non} decadono fino ad un eventuale modifica, sostituzione o abrogazione.
+\end{itemize}
+Criteri direttivi: [missing] \newline
+La Corte di Giustizia UE è la sede in cui un soggetto può far valere i propri diritti su direttive che sono state mal formalizzate disallineandosi a quanto definito dall' Unione Europea sulle leggi regolamentari riferite a \textbf{tutti} gli stati dell' UE.
+
+Diverse leggi vengono prima idealizzate e solo ad una seconda data vengono implementate per permettere la comprensione in anticipo della legge.
+L'abrogazione selettiva: [missing]
+\newline GDPR: General data Protection and Regulation [missing] \newline
+
+Alla creazione di nuove si studia quanto i suoi effetti possano abrogare (essere incompatibili) con precedenti leggi già in atto.
+Bisogna prestare molta attenzione alla \textbf{successione temporale delle leggi} in quanto, come gli accordi internazionali degli stati, ci possono essere degli accordi specifici che non vengono abrogati in seguito ad una nuova legge.
+
+Problema: I trasferimenti dei dati verso i server americani \textbf{non} erano compatibili alle normative europee. L'importante non è il confine fisico del server, anche se esiste una sede in uno stato UE, era \textbf{controllata da una casa madre} (\textcolor{red}{promanazione}), situata in America. I controlli americani iniziati dopo l'11 Settembre 2002 sono di tipo invasivo e quindi in contrasto con quanto voluto dall'UE, basata sui cittadini. A data  \today tutte le aziende americane sono obbligate a fornire \textbf{tutti i dati} degli utenti alle \textbf{intelligence} americane, comportamento \textbf{inaccettabile} per quanto detto dalle normative europee. Questo argomento si chiama: \textbf{\large Data Protection}.
+\section{Accountability del Titolare}
+\subsection{ Cos'è il principio di accountability?} è il perno della \textbf{metodologia} di tutta la gestione dei dati: Il titolare del trattamento dei dati è responsabile ai principi privacy e deve essere in grado di DIMOSTRARLA (art. 5, co.2)]
+\subsection{Protezione sin dalla progettazione}
+Esiste un articolo a doc. che disciplina la protezione dei dati sin dalla protegettazione: \begin{itemize}
+    \item By design, le normative devono essere già applicate al momento della progettazione di un prodotto di un software.
+    \item By default, (applicata anche nella realizzazione) prevede che vengano attuate delle misure per minimizzare il trattamento dei dati personali, quindi devono essere processati i dati personali necessari alla sua funzionalità.
+\end{itemize}
+\subsubsection{Obblighi Documentali}
+\begin{itemize}
+    \item Registro Trattamenti
+    \item DPIA
+    \item Lettere Incarico
+    \item missing
+\end{itemize}
+
+\section{Applicabilità GDPR delle persone fisiche}
+Il GDPR viene applicata solo sulle persone \textbf{fisiche}: ovvero gli esseri umani \textbf{vivi}. Le persone giuridiche sono gli enti che \textbf{non sono umani}, ma hanno una loro autonomia (comuni, Università...). I dati personali di persone giuridiche si applica la "Direttiva 2005/58".
+
+\section{Definizione dati personali e termini relativi}
+
+
+Cos'è un \textbf{dato personale}? Un dato personale è qualsiasi informazione riguardante una \textbf{persona fisica} identificata o identificabile (interessato); si considera identificabile la persona fisica che può essere identificata, direttamente o indirettamente, con particolare riferimento a un identificativo come il nome, un numero di identificazione.... 
+\newline
+\definition{\textbf{Trattamento}: (trattamento) qualsiasi operazione o insieme di operazioni, compiute con o senza l'ausilio di processi automatizzati e applicate a dati personali o insiemi di dati personali, come la raccolta, registrazione, organizzazione, strutturazione, conservazione, l'adattamento, modifica, la comunicazione mediante trasmissione, l'estrazione, diffusione, il raffronto, la limitazione, la cancellazione o la distruzione.}
+\newline
+
+Art. 9, comma 1 | \textbf{Dati ex Sensibili}: sono dati che rivelano l'origine razziale o etniche, le opinioni politiche, le convinzioni religiosi o filosofiche, l'appartenenza sindacale, dati biometrici, dati relativi alla salute, alla vita sessuale o all'orientamento sessuale della persona. (Ovvero \textbf{ALCUNI} dei dati che possono portare alla discriminazione).
+\newline
+
+Art. 10 | \textbf{Dati ex Giudiziari}: dati personali relativi alle condanne penali e ai reati o a connesse misure di sicurezza. (Penali)
+\newline
+
+Tutte le definizioni fondamentali possono essere trovate in un glossario apposito, \textbf{indicando l'intenzione di una ente di vedere formalmente tale parola in quel modo}.
+
+\section{Soggetti che effettuano il Trattamento}
+\definition{\textbf{Titolare del Trattamento}: La persona fisica o giuridica, l'autorità pubblica, il servizio o altro organismo che, singolarmente o insieme ad altri, \textit{determina le finalità e i mezzi del trattamento dati}; quando le finalità e i mezzi di tale trattamento sono determinati dal diritto dell'Unione Europea o degli stati membri, il titolare del trattamento o i criteri specifici applicabili alla sua designazione possono essere stabiliti dal diritto dell'Unione o degli Stati membri. }
+\definition{\textbf{Responsabile del Trattamento}: La persona fisica o giuridica. l'autorità pubblica, il servizio o altro organismo che \textit{tratta i dati personali per conto del titolare del trattamento}.} Colui che tratta i dati personali senza essere definito responsabile dei dati, causa un \textbf{trattamento illecito dei dati}. Il contratto relativo si chiama: \textit{Contratto di Nomina del responsabile del Trattamento dei dati}. Documento trovabile su: \href{https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/7322273}{\textcolor{blue}{Garante Privacy}} (Attenzione prevede download istantaneo)
+
+Articolo 28, comma 3, del Regolamento (UE) 2016/679: I trattamenti da parte di un responsabile del trattamento sono \textit{disciplinati da un \textbf{contratto} o da atto giuridico} a norma del diritto dell'Unione o degli Stati membri.
+\definition{\textbf{Professionista}: Colui che ha le competenze per compiere la professione e le può dimostrare attraverso titolo di studio} (Il perito è considerato \textbf{Non Sufficiente}, viene esplicitato come sufficiente la \textbf{Laurea} o titolo equiparato).
+\definition{\textbf{Incaricato}: Il responsabile del trattamento dei dati, o chiunque \textit{agisca sotto la sua autorità o sotto quella del titolare del trattamento}, che abbia accesso a dati personali \textit{non può trattare tali dati} se non è \textbf{istruito} in tal senso dal titolare del trattamento, salvo che lo richieda il diritto dell'Unione o degli Stati membri. }
+\definition{\textbf{Interessato}: La persona fisica identificata o identificabile cui si riferiscono i dati personali. All'interessato si ricollegano [missing]}
+\definition{\textbf{Responsabile Della Protezione dei Dati (DPO)}: Obbligatorio nei seguenti 3 casi: \begin{itemize}
+    \item Autorità Pubblica o organismo [missing]
+\end{itemize}}
+\subsection{Diritti dell'Interessatto}
+[missing]
+\begin{itemize}
+    \item Conoscitivi;
+    \item Di controllo sul trattamento;
+    \item Di intervento sui dati;
+    \item Di non essere sottoposto a decisione basata \textbf{unicamente} sul trattamento automatizzato, compresa la profilazione, che produca effetti giuridici che lo riguardano o incida in modo analogo significativamente sulla sua persona (\href{https://gdpr-info.eu/art-22-gdpr/}{art 22}).
+\end{itemize}
+\definition{\textbf{ [missing]Autorità di Controllo in ambito GDPR privacy}: L'Autorità Garante ha funzioni di Controllo Normativo sulle materie di competenza nazionale. Organo collegiale composto da \textbf{quattro} membri eletti dal Parlamento della durata di 7 anni. Si articola in \begin{itemize}
+    \item Segreteria Generale;
+    \item Dipartimenti;
+    \item Servizi;
+\end{itemize}} (\href{https://www.brocardi.it/codice-della-privacy/parte-iii/titolo-ii/capo-i/art153.html}{art 153, comma 1})
+
+\section{Informativa dell'Interessato}
+Liceità del Trattamento.
+\definition{\textbf{Informativa all'Interessato}: Unico documento sempre necessario da sottoporre al soggetto interessato contenente tutte le informazioni necessarie, deve essere scritto in forma concisa, trasparente, intelligibile e facilmente accessibile, con un linguaggio semplice e chiaro, \textit{specialmente destinate ai minori (di 14 anni)}. Le informazioni sono fornite per \textbf{iscritto} o con altri mezzi (elettronici); se richiesto dall'interessato, le informazioni possono essere \textit{fornite oralmente, purché sia comprovata con altri mezzi l'identità dell'interessato.} } In questa informativa deve essere scritto: \begin{itemize}
+    \item I dati di contatto del responsabile della protezione dei dati;
+    \item Le finalità del trattamento cui sono destinati i dati personali nonché la \textbf{base giuridica del trattamento};
+    \item Gli eventuali \textbf{destinatari o le eventuali categorie di destinatari} dei dati personali;
+    \item Ove applicabile, \textbf{l'intenzione del titolare del trattamento di trasferire dati personali a un paese terzo o a un'organizzazione internazionale};
+    \item Il \textbf{periodo di conservazione} ed i criteri per determinare tale periodo.
+    \item L'esistenza del diritto dell'interessato di chiedere al titolare del trattamento \textit{l'accesso ai dati personali} e la rettifica o la cancellazione degli stessi o la limitazione del trattamento che lo riguardano o di \textbf{opporsi al loro trattamento}, oltre al diritto alla portabilità dei dati.
+    \item Qualora il trattamento sia basato sull'art 9, paragrafo 2, lettera a [missing]
+\end{itemize}
+Nota: Durante l'Agosto del 2022 Google analytics fece un utilizzo illecito dei dati personali non specificando i minimi legali verso gli interessati. 
+
+Giurisdizione esclusiva mondiale: (america) [missing]
+
+Il trattamento è \textbf{lecito} solo se è nella misura in cui ricorre almeno una delle condizioni seguenti:
+\begin{itemize}
+    \item L'interessato ha espresso il consenso al trattamento dei dati personali per una o più finalità (uno solo dei punti, non sempre è necessario il consenso, diverso da prenderne la visione).
+    \item Il trattamento è necessario all'esecuzione di un contratto di cui l'interessato è parte.
+    \item Il trattamento è necessario per adempiere ad un obbligo legale al quale è soggetto il titolare del trattamento;
+    \item Il trattamento è necessario per la salvaguardia degli interessi vitali dell'interessato o di un'altra persona fisica.
+    \item Il trattamento è necessario per l'esecuzione di un compito di interesse pubblico o connesso all'esercizio di pubblici poteri.
+    \item Il trattamento è necessario per il perseguimento del \textbf{legittimo interesse} del titolare del trattamento o di terzi (proporre informazioni in base ad un mostrato interesse, tipo e-mail spam dopo certe ricerche).
+\end{itemize}
+\definition{\textbf{Consenso dell'interessato}: Il consenso mediante un \textit{atto positivo inequivocabile} con il quale l'interessato manifesta l'intenzione libera, specifica, informata e inequivocabile di accettare il trattamento dei dati personali che lo riguardano. 1) Il titolare deve essere in grado di dimostrare che l'interessato ha prestato il proprio consenso [missing] 3) L'interessato ha il diritto di revocare il proprio consenso in qualsiasi momento}
+
+\section{Data Breach}
+Secondo il WP29 il data breach consiste in una violazione di sicurezza che comporta accidentalmente o in modo illecito la distruzione, la perdita, la modifica, la divulgazione non autorizzata o l'accesso ai dati personali trasmessi, conservati o comunque trattati. Guida sulla notifica di Data Breach: ex art 29.
+
+Secondo il WP29 la violazione dei dati personali si suddivide in tre categorie:\begin{itemize}
+    \item Confidentiality Breach: Divulgazione o accesso non autorizzato ai dati;
+    \item Availability Breach: Alterazione non autorizzata o accidentale di dati personali;
+    \item Integrity Breach: Modifica non autorizzata o accidentale di dati personali.
+\end{itemize}
+\subsection{Notifica di violazione di dati}
+Il titolare del trattamento dei notifica la violazione \textbf{all'autorità di controllo competenze} senza ingiustificato ritardo e ove possibile, \textbf{entro 72 ore dal momento in cui ne è venuto a conoscenza}, a meno che sia improbabile che la violazione dei dati personali presenti un \textbf{rischio per i diritti e le libertà delle persone fisiche} (Non serve notificare in caso i dati fossero cifrati o non è stato effettuata nessun accesso effettivo).
+
+\textbf{La comunicazione all'interessato non è richiesta se:}
+\begin{enumerate}
+    \item Ha messo in atto le misure tecniche e organizzative adeguate di protezione e tali misure erano state applicate ai dati personali oggetto della violazione, in particolare quelle a rendere i dati illeggibili, a chiunque non sia autorizzato ad accedervi.
+    \item Ha successivamente adottato misure atte a scongiurare il sopraggiungere di un rischio elevato per i diritti e le libertà degli interessato;
+    \item Detta comunicazione richiederebbe \textbf{sforzi sproporzionati} (In caso di un attacco ad un soggetto che ha numerosi interessati può essere esonerato di comunicarlo ad uno ad uno e quindi usare delle metodologie che richiedono meno sforzi, ma che porti lo stesso all'interessato la comunicazione).
+\end{enumerate}
+\section{Il diritto Penale}
+Il diritto penale è l'insieme di norme giuridiche con le quali lo stato proibisce, mediante la minaccia di una pena, [missing]
+\newline La pena, invece, si può definire come una "sofferenza" che viene imposta dallo stato alla personale che ha violato un dovere giuridico. Il principale complesso di norme giuridiche è costituito dal \textbf{codice penale}, il cosiddetto \textbf{Codice Rocco} pubblicato nel 1930 è applicato dal 1931.
+\subsection{Principio di Legalità}
+\textit{"Nessuno può essere punito se non in forza di una legge che sia entrata in vigore prima del fatto commesso. Nessuno può essere sottoposto a misure di sicurezza se non nei casi previsti dalla legge"} \hyperlink{https://www.senato.it/istituzione/la-costituzione/parte-i/titolo-i/articolo-25}{(\textcolor{blue}{Art. 25 Costituzione Italiana})}
+\begin{itemize}
+    \item Riserva di Legge: solo al potere legislativo appartiene il monopolio normativo in materia penale.
+    \item Tassatività: riguarda la tecnica di \textbf{formulazione} delle norme penali (precisa, vietando al giudice di creare analogie)
+    \item Irretroattività: Irretroattività della legge sfavorevole, Retroattività della legge favorevole.
+\end{itemize}
+\subsection{Il Reato}
+Solo la persona umana può commettere un reato, si divide in \begin{itemize}
+    \item \textbf{Capacità Penale}: riguarda tutti indistintamente;
+    \item \textbf{Capacità alla Pena}: presuppone l'imputabilità;
+\end{itemize}
+\subsection{Precetto e Sanzione}
+Il \textbf{Precetto} è il comando di tenere una certa condotta, ad esempio \textit{"Chiunque cagiona la morte di un uomo è punito con la reclusione"}, senza nessuna specifica. La \textbf{Sanzione} è la \textbf{conseguenza giuridica che deve seguire l'infrazione del precetto}. \newline In alcuni casi il legislatore affida la descrizione del precetto a fonti extra penali, ossia a norme che provengono da altri rami dell'ordinamento. Un ulteriore caso è dove il legislatore \textbf{rimanda} l'integrazione del precetto ad atti normativi secondari o, addirittura, ad atti non normativi; un esempio: il decreto del Ministero della Sanità sull'aggiornamento delle tabelle degli \textbf{stupefacenti}.
+\subsection{Bene Giuridico}
+Ogni norma penale tutela un determinato bene o interesse, ovvero è il \textbf{bene giuridico o l'interesse  giuridico tutelato dalla norma}. I beni protetti sono individuati dai \textbf{principi sanciti dalla costituzione }. \textbf{Nota:} non da confondere con \textbf{l'oggetto materiale dell'azione}.
+\subsection{Condotta}
+
+
+
+
+\end{document}
